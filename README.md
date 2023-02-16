@@ -23,20 +23,27 @@ Inputs:
 Outputs:
 
 14 (Combinatorial, Output feedback output, Active low)
+
 15 (Combinatorial, No output feedback, Active low)
+
 16 (Combinatorial, No output feedback, Active low)
 
 Equations:
 
 /o14 = /i1 & /i2 & i3 +
+
        /i19 +
+       
        /i18
+
 o14.oe = vcc
 
 /o15 = /i1 & /i2 & i3 & i4 & i5 & i6 & i7 & i8 & i9 & i11 & i12
+
 o15.oe = vcc
 
 /o16 = /i1 & /i2 & i3 & i4 & i5 & i6 & i7 & i8 & i9 & /i11 & i12 & /i13
+
 o16.oe = vcc
 
 The equations for #2 are as follows:
@@ -48,23 +55,33 @@ Inputs:
 Outputs:
 
 14 (Combinatorial, No output feedback, Active low)
+
 15 (Combinatorial, No output feedback, Active low)
+
 16 (Combinatorial, No output feedback, Active low)
+
 17 (Combinatorial, No output feedback, Active low)
 
 Equations:
 
 /o14 = /i1 & /i2 & i3 +
+
        /i1 & i2 & /i3 & /i4 +
+       
        /i19 +
+       
        /i18
+
 o14.oe = vcc
 
 /o15 = /i1 & /i2 & i3 & i4 & i5 & i6 & i7 & i8 & i9 & i11 & i12
+
 o15.oe = vcc
 
 /o16 = /i1 & /i2 & i3 & i4 & i5 & i6 & i7 & i8 & i9 & /i11 & i12 & /i13
+
 o16.oe = vcc
 
 /o17 = 
+
 o17.oe = vcc
