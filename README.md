@@ -14,7 +14,7 @@ The three files in this repository are:
 
 3) Coco3-GAL-WinCUPL.PLD - This is the original WinCUPL PLD file that was posted on StackExchange.
 
-The equations for #1 are as follows:
+The logic for #1 is as follows:
 
     Inputs:
 
@@ -46,7 +46,7 @@ The equations for #1 are as follows:
 
         o16.oe = vcc
 
-The equations for #2 are as follows:
+The logic for #2 are as follows:
 
     Inputs:
 
@@ -62,7 +62,7 @@ The equations for #2 are as follows:
 
         17 (Combinatorial, No output feedback, Active low)
 
-Equations:
+    Equations:
 
         /o14 = /i1 & /i2 & i3 +
 
