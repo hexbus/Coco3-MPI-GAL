@@ -16,11 +16,11 @@ The three files in this repository are:
 
 The equations for #1 are as follows:
 
-Inputs:
+  Inputs:
 
     1, 2, 3, 4, 5, 6, 7, 8, 9, 11, 12, 13, 14, 17, 18, 19
 
-Outputs:
+  Outputs:
 
     14 (Combinatorial, Output feedback output, Active low)
 
@@ -28,7 +28,7 @@ Outputs:
 
     16 (Combinatorial, No output feedback, Active low)
 
-Equations:
+  Equations:
 
     /o14 = /i1 & /i2 & i3 +
 
