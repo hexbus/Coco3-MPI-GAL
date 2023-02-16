@@ -36,15 +36,15 @@ The equations for #1 are as follows:
        
             /i18
 
-    o14.oe = vcc
+        o14.oe = vcc
 
-    /o15 = /i1 & /i2 & i3 & i4 & i5 & i6 & i7 & i8 & i9 & i11 & i12
+        /o15 = /i1 & /i2 & i3 & i4 & i5 & i6 & i7 & i8 & i9 & i11 & i12
 
-    o15.oe = vcc
+        o15.oe = vcc
 
-    /o16 = /i1 & /i2 & i3 & i4 & i5 & i6 & i7 & i8 & i9 & /i11 & i12 & /i13
+        /o16 = /i1 & /i2 & i3 & i4 & i5 & i6 & i7 & i8 & i9 & /i11 & i12 & /i13
 
-    o16.oe = vcc
+        o16.oe = vcc
 
 The equations for #2 are as follows:
 
